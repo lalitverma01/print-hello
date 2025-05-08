@@ -9,5 +9,16 @@ body {
     mask:
         linear-gradient(#000 0 0) padding-box,
         linear-gradient(#000 0 0);
-    mask-composite: exclude;
+}
+
+.header-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(141.64deg, rgba(255, 255, 255, 0.05) -1.76%, rgba(255, 255, 255, 0.0185) 134.33%);
+    border-radius: 8px;
+    z-index: -1;
 }
