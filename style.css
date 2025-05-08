@@ -1,3 +1,13 @@
 body {
     background: white;
 }
+
+.header-card {
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background: linear-gradient(45deg, white, rgb(97, 97, 180)) border-box;
+    mask:
+        linear-gradient(#000 0 0) padding-box,
+        linear-gradient(#000 0 0);
+    mask-composite: exclude;
+}
