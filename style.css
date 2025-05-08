@@ -4,6 +4,7 @@ body {
 
 .header-card {
     border-radius: 8px;
+    position: relative;
     border: 2px solid transparent;
     border: linear-gradient(180deg, #242322, #111011) border-box !important;
     mask:
