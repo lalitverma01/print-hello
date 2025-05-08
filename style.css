@@ -18,7 +18,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(141.64deg, rgba(255, 255, 255, 0.05) -1.76%, rgba(255, 255, 255, 0.0185) 134.33%);
+    background: linear-gradient(141.64deg, rgba(255, 255, 255, 0.05) -1.76%, rgba(255, 255, 255, 0.0185) 134.33%) !important;
     border-radius: 8px;
     z-index: -1;
 }
