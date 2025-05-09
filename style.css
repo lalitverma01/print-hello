@@ -11,8 +11,8 @@ body {
         linear-gradient(#000 0 0) padding-box,
         linear-gradient(#000 0 0);
         mask-composite: exclude; */
-    border: 2px solid;
-    border: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 37.68%, rgba(255, 255, 255, 0) 100%);
+    border: 2px solid !important;
+    border: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 37.68%, rgba(255, 255, 255, 0) 100%) !important;
 }
 
 /* .header-card::before {
