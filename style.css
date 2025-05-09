@@ -25,6 +25,6 @@ body {
     /* z-index: -1; */
 }
 
-.gradient-line {
+.gradient-line:hover {
     background: linear-gradient(90deg, #FFFFFF 27.43%, rgba(255, 255, 255, 0) 62.94%) !important;
 }
