@@ -29,6 +29,6 @@ body {
     background: linear-gradient(90deg, #F46E00 27.43%, rgba(244, 110, 0, 0) 62.94%) !important;
 }
 
-.gradient-line:hover .auto-pilot-card {
+.gradient-line .auto-pilot-card:hover {
     background: linear-gradient(90deg, #FFFFFF 27.43%, rgba(255, 255, 255, 0) 62.94%) !important;
 }
