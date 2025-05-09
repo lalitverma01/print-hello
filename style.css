@@ -25,10 +25,10 @@ body {
     /* z-index: -1; */
 }
 
-.gradient-line .auto-pilot-card {
+.gradient-line {
     background: linear-gradient(90deg, #F46E00 27.43%, rgba(244, 110, 0, 0) 62.94%) !important;
 }
 
-.gradient-line .auto-pilot-card:hover {
-    background: linear-gradient(90deg, #FFFFFF 27.43%, rgba(255, 255, 255, 0) 62.94%) !important;
+.auto-pilot-card:hover .gradient-line {
+    background-color: linear-gradient(90deg, #FFFFFF 27.43%, rgba(255, 255, 255, 0) 62.94%) !important;
 }
