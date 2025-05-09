@@ -2,7 +2,7 @@ body {
     background: #000;
 }
 
-.header-card {
+/* .header-card {
     border-radius: 8px;
     position: relative;
     border: 2px solid transparent;
@@ -10,8 +10,8 @@ body {
     mask:
         linear-gradient(#000 0 0) padding-box,
         linear-gradient(#000 0 0);
-        /* mask-composite: exclude; */
-}
+        mask-composite: exclude;
+} */
 
 .header-card::before {
     content: '';
