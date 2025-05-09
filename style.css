@@ -3,14 +3,16 @@ body {
 }
 
 .header-card {
-    border-radius: 8px;
+    /* border-radius: 8px;
     position: relative;
     border: 2px solid transparent;
     background: linear-gradient(180deg, #242322, #111011) border-box !important;
     mask:
         linear-gradient(#000 0 0) padding-box,
         linear-gradient(#000 0 0);
-        /* mask-composite: exclude; */
+        mask-composite: exclude; */
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 37.68%, rgba(255, 255, 255, 0) 100%);
 }
 
 /* .header-card::before {
@@ -25,7 +27,7 @@ body {
     z-index: -1;
 } */
 
-.gradient-line  {
+.gradient-line {
     background: linear-gradient(90deg, #F46E00 27.43%, rgba(244, 110, 0, 0) 62.94%) !important;
 }
 
