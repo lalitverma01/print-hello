@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: #000;
 }
 
 .header-card {
@@ -23,4 +23,8 @@ body {
     background: linear-gradient(141.64deg, rgba(255, 255, 255, 0.05) -1.76%, rgba(255, 255, 255, 0.0185) 134.33%) !important;
     border-radius: 8px;
     /* z-index: -1; */
+}
+
+.gradient-line {
+    background: linear-gradient(90deg, #FFFFFF 27.43%, rgba(255, 255, 255, 0) 62.94%) !important;
 }
