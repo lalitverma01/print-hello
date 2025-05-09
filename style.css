@@ -35,3 +35,20 @@ body {
 .auto-pilot-card:hover .gradient-line {
     background-color: linear-gradient(90deg, #FFFFFF 27.43%, rgba(255, 255, 255, 0) 62.94%) !important;
 }
+
+.card {
+    /* background-color: #1a1a1a; */
+    /* padding: 20px; */
+    border-radius: 8px;
+    position: relative;
+}
+
+.gradient-line {
+    height: 8px;
+    background: linear-gradient(90deg, #F46E00 27.43%, rgba(244, 110, 0, 0) 62.94%) !important;
+    transition: 0.3s linear;
+}
+
+.card:hover .gradient-line {
+    background: linear-gradient(90deg, #FFFFFF 27.43%, rgba(255, 255, 255, 0) 62.94%) !important;
+}
