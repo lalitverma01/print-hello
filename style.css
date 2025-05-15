@@ -57,7 +57,7 @@ body {
 .book-btn {
     display: inline-block !important;
     padding: 12px 24px 12px 24px !important;
-    background-color: #007bff !important;
+    background-color: #0367fd !important;
     color: white !important;
     text-decoration: none !important;
     font-family: sans-serif;
@@ -67,6 +67,15 @@ body {
     transition: background-color 0.3s ease !important;
 }
 
-.book-btn:hover {
-    background-color: #0056b3;
+.book-btn-2 {
+    display: inline-block !important;
+    padding: 12px 24px 12px 24px !important;
+    background-color: #090e1c !important;
+    color: white !important;
+    text-decoration: none !important;
+    font-family: sans-serif;
+    font-size: 16px;
+    position: relative !important;
+    clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
+    transition: background-color 0.3s ease !important;
 }
