@@ -55,7 +55,6 @@ body {
 }
 
 .book-btn {
-    display: inline-block !important;
     background-color: #0367fd !important;
     color: white !important;
     text-decoration: none !important;
@@ -65,7 +64,6 @@ body {
 }
 
 .book-btn-2 {
-    display: inline-block !important;
     background-color: #090e1c !important;
     color: white !important;
     text-decoration: none !important;
