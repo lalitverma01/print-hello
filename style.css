@@ -80,4 +80,17 @@ body {
 .book-btn-2:hover {
     background-color: #FFFFFF !important;
     color: #090e1c !important;
-    }
+}
+
+.navbar-btn {
+    border: 1px solid #dcdee2 !important;
+    color: #161616 !important;
+    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0% 100%) !important;
+    transition: 0.3s linear !important;
+}
+
+.navbar-btn:hover {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border: 1px solid #000000 !important;
+}
