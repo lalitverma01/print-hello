@@ -61,12 +61,13 @@ body {
     text-decoration: none !important;
     position: relative !important;
     clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
-    transition: background-color 0.3s ease !important;
+    transition: 0.3s linear !important;
 }
 
 .book-btn:hover {
     background-color: #FFFFFF !important;
     color: #0367fd !important;
+    clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
 }
 
 .book-btn-2 {
@@ -75,10 +76,11 @@ body {
     text-decoration: none !important;
     position: relative !important;
     clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
-    transition: background-color 0.3s ease !important;
+    transition: 0.3s linear !important;
 }
 
 .book-btn-2:hover {
     background-color: #FFFFFF !important;
     color: #090e1c !important;
+    clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
 }
