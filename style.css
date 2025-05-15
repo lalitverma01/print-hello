@@ -67,7 +67,7 @@ body {
 .book-btn:hover {
     background-color: #FFFFFF !important;
     color: #0367fd !important;
-    clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
+    border: 1px solid #0367fd !important;
 }
 
 .book-btn-2 {
@@ -82,5 +82,5 @@ body {
 .book-btn-2:hover {
     background-color: #FFFFFF !important;
     color: #090e1c !important;
-    clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
-}
+    border: 1px solid #090e1c !important;
+    }
