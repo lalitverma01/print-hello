@@ -82,11 +82,11 @@ body {
     color: #090e1c !important;
 }
 
-.back-to-top {
+#button {
     opacity: 0 !important;
 }
 
-.back-to-top.show {
+#button.show {
     opacity: 1 !important;
     visibility: visible !important;
 }
