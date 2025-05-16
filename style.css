@@ -54,7 +54,8 @@ body {
     background: linear-gradient(90deg, #FFFFFF 27.43%, rgba(255, 255, 255, 0) 62.94%) !important;
 }
 
-.book-btn {
+.book-btn,
+.book-btn-3 {
     background-color: #0367fd !important;
     color: white !important;
     text-decoration: none !important;
@@ -78,7 +79,7 @@ body {
 }
 
 .book-btn-2:hover,
-.bbok-btn-3:hover {
+.bok-btn-3:hover {
     background-color: #FFFFFF !important;
     color: #090e1c !important;
 }
