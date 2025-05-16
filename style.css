@@ -60,7 +60,7 @@ body {
     color: white !important;
     text-decoration: none !important;
     position: relative !important;
-    clip-path: polygon(9% 0, 80% 0%, 100% 0, 100% 73%, 88% 100%, 0 100%, 0% 80%, 0 20%) !important;
+    clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
     transition: 0.3s linear !important;
 }
 
@@ -74,7 +74,7 @@ body {
     color: white !important;
     text-decoration: none !important;
     position: relative !important;
-    clip-path: polygon(9% 0, 80% 0%, 100% 0, 100% 73%, 88% 100%, 0 100%, 0% 80%, 0 20%) !important;
+    clip-path: polygon(10px 0%, 100% 0%, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0% 100%, 0% 10px) !important;
     transition: 0.3s linear !important;
 }
 
