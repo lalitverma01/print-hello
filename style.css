@@ -77,7 +77,8 @@ body {
     transition: 0.3s linear !important;
 }
 
-.book-btn-2:hover {
+.book-btn-2:hover,
+.bbok-btn-3:hover {
     background-color: #FFFFFF !important;
     color: #090e1c !important;
 }
