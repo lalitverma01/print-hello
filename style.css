@@ -82,6 +82,15 @@ body {
     color: #090e1c !important;
 }
 
+#button {
+    opacity: 0 !important;
+}
+
+#button.show {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
 /* .navbar-btn {
     border: 1px solid #dcdee2 !important;
     color: #161616 !important;
