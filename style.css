@@ -94,23 +94,18 @@ body {
     visibility: visible !important;
 }
 
-/* .navbar-btn {
-    border: 1px solid #dcdee2 !important;
-    color: #161616 !important;
-    clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 0% 100%) !important;
-    transition: 0.3s linear !important;
+.logos-overflow__logos-wrapper1 {
+    animation: logoloop 20s linear infinite;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.navbar-btn:hover {
-    background-color: #000000 !important;
-    color: #ffffff !important;
-    border: 1px solid #000000 !important;
-} */
-/* 
-.grid-card {
-    width: 100%;
-    max-width: 280px;
-    height: 243px;
-    border: 1px solid #3e4760 !important;
-    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0% 100%) !important;
-} */
+@keyframes logoloop {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
