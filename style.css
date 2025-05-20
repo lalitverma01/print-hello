@@ -117,7 +117,7 @@ body {
     -webkit-text-fill-color: transparent !important;
     background: linear-gradient(white, white) padding-box,
         linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
-        transition: all 0.3s linear !important;
+    transition: all 0.3s linear !important;
 }
 
 .client-portal-btn:hover {
@@ -126,6 +126,7 @@ body {
         linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
     color: white !important;
 }
+
 .client-portal-btn:hover .text-span-3 {
     background-color: white !important;
     color: white;
@@ -133,9 +134,11 @@ body {
 }
 
 .pricing-card:hover {
-background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
+    background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
 }
 
 .pricing-card:hover .Text-Span-2 {
-background-color: white !important;
+    background-color: white !important;
+    color: white;
+    background-image: none;
 }
