@@ -128,4 +128,5 @@ body {
 .client-portal-btn:hover .text-span-3 {
     background-color: white !important;
     color: white;
+    background-image: none;
 }
