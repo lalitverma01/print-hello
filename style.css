@@ -109,3 +109,15 @@ body {
         transform: translateX(-100%);
     }
 }
+
+.client-portal-btn {
+    background: -webkit-linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.client-portal-btn:hover {
+    background: -webkit-linear-gradient(101.42deg, #FFFFFF 14.16%, #FFFFFF 97.35%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
