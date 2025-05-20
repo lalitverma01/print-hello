@@ -133,6 +133,10 @@ body {
     background-image: none;
 }
 
+.pricing-card {
+    transition: 0.3s linear !important;
+}
+
 .pricing-card:hover {
     background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
 }
