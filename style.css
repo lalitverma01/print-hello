@@ -131,3 +131,8 @@ body {
     color: white;
     background-image: none;
 }
+
+.pricing-card:hover {
+background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
+
+}
