@@ -138,7 +138,10 @@ body {
 }
 
 .pricing-card:hover {
-    background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
+    background: linear-gradient(#2439FF, #237BFF) padding-box,
+        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
+    color: white !important;
+    /* background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important; */
 }
 
 .pricing-card:hover .Text-Span-2 {
