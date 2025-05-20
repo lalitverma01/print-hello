@@ -125,3 +125,6 @@ body {
         linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
     color: white !important;
 }
+.client-portal-btn span:hover {
+    background-color: white !important;
+}
