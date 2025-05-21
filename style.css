@@ -148,6 +148,7 @@ body {
 
 .pricing-card:hover .Text-Span-2 {
     -webkit-text-fill-color: white;
+    background-color: white !important;
     background-image: none !important;
 }
 
