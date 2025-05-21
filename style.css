@@ -134,7 +134,13 @@ body {
 }
 
 .pricing-card {
-    transition: 0.3s linear !important;
+    background: -webkit-linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
+    background-color: #ffffff !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
+    transition: all 0.3s linear !important;
 }
 
 .pricing-card:hover {
