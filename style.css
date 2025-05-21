@@ -150,30 +150,6 @@ body {
     background-image: none !important;
 }
 
-/* .contact-us-btn {
-    background: -webkit-linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
-    background-color: #ffffff !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
-    background: linear-gradient(white, white) padding-box,
-        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
-    transition: all 0.3s linear !important;
-}
-
-.contact-us-btn:hover {
-    background-color: #ffffff !important;
-    color: white !important;
-    background: linear-gradient(#ffffff, #ffffff) padding-box,
-        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
-}
-
-.contact-us-btn:hover {
-    background-color: white !important;
-    color: white;
-    background-image: none;
-} */
-
-
 .contact-us-btn {
     background: -webkit-linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
     background-color: #ffffff !important;
@@ -195,4 +171,17 @@ body {
     background-color: white !important;
     color: white;
     background-image: none;
+}
+
+.contact-us-btn {
+    background: linear-gradient(90deg, #ffffff, #cfcfcf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s linear;
+}
+
+.contact-us-btn:hover {
+    background: linear-gradient(90deg, #00ffe7, #0072ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
