@@ -163,11 +163,11 @@ body {
     transition: all 0.3s linear !important;
 }
 
-.Text-Span-2 {
+/* .Text-Span-2 {
     background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
 .pricing-card:hover {
     background-color: #237BFF !important;
@@ -179,6 +179,17 @@ body {
 .pricing-card:hover .Text-Span-2 {
     background: none;
     -webkit-text-fill-color: white;
+}
+
+.Text-Span-2 {
+    background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+    margin: 10px 0 !important;
+    text-align: left !important;
+
 }
 
 /* 
@@ -195,16 +206,6 @@ body {
 
 }
 
-.para {
-    background: linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 16px !important;
-    line-height: 1.5 !important;
-    margin: 10px 0 !important;
-    text-align: left !important;
-
-}
 
 .border_1 {
     border: 1px solid #000 !important;
