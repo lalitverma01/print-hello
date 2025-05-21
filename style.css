@@ -170,7 +170,7 @@ body {
     color: white !important;
 }
 
-.pricing-card:hover .Text-Span-2 {
+.pricing-card:hover .Text-Block-6 {
     background: none;
     -webkit-text-fill-color: white !important;
 }
