@@ -150,9 +150,9 @@ body {
     background-image: none !important;
 }
 
-.contact-us-btn {
-    /* background: -webkit-linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important; */
-    /* background-color: #ffffff !important; */
+/* .contact-us-btn {
+    background: -webkit-linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
+    background-color: #ffffff !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
     background: linear-gradient(white, white) padding-box,
@@ -165,6 +165,30 @@ body {
     color: white !important;
     background: linear-gradient(#ffffff, #ffffff) padding-box,
         linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
+}
+
+.contact-us-btn:hover {
+    background-color: white !important;
+    color: white;
+    background-image: none;
+} */
+
+
+.contact-us-btn {
+    background: -webkit-linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
+    background-color: #ffffff !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
+    transition: all 0.3s linear !important;
+}
+
+.contact-us-btn:hover {
+    background-color: #237BFF !important;
+    background: linear-gradient(#2439FF, #237BFF) padding-box,
+        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
+    color: white !important;
 }
 
 .contact-us-btn:hover .span-text {
