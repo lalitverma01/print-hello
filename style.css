@@ -181,7 +181,7 @@ body {
     -webkit-text-fill-color: transparent !important;
     background: linear-gradient(white, white) padding-box,
         linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
-    transition: all 0.3s linear !important;
+    transition: 0.3s linear !important;
 }
 
 .contact-us-btn:hover {
