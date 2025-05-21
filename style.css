@@ -163,8 +163,8 @@ body {
 .contact-us-btn:hover {
     background-color: #237BFF !important;
     color: white !important;
-    /* background: linear-gradient(#2439FF, #237BFF) padding-box,
-        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important; */
+    background: linear-gradient(#ffffff, #ffffff) padding-box,
+        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
 }
 
 .contact-us-btn:hover .span-text {
