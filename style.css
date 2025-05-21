@@ -139,7 +139,7 @@ body {
 
 .pricing-card:hover {
     background-color: #237BFF !important;
-    background: linear-gradient(#2439FF, #237BFF) padding-box,
+    background: linear-gradient(#ffffff, #ffffff) padding-box,
         linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
     color: white !important;
 }
@@ -171,17 +171,4 @@ body {
     background-color: white !important;
     color: white;
     background-image: none;
-}
-
-.pricing-card {
-    background: linear-gradient(90deg, #ffffff, #cfcfcf);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.3s linear;
-}
-
-.pricing-card:hover .span-text {
-    background: linear-gradient(90deg, #00ffe7, #0072ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
