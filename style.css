@@ -163,12 +163,12 @@ body {
     transition: all 0.3s linear !important;
 }
 
-.pricing-card:hover {
+/* .pricing-card:hover {
     background-color: #237BFF !important;
     background: linear-gradient(#2439FF, #237BFF) padding-box,
         linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
     color: white !important;
-}
+} */
 
 .pricing-card:hover .Text-Span-2 {
     background: none;
