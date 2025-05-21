@@ -180,7 +180,7 @@ body {
     transition: all 0.3s linear;
 }
 
-.contact-us-btn:hover {
+.contact-us-btn:hover .span-text {
     background: linear-gradient(90deg, #00ffe7, #0072ff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
