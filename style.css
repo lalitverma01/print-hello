@@ -110,6 +110,8 @@ body {
     }
 }
 
+/* AA-Technologies-css-start */
+
 .client-portal-btn {
     background: -webkit-linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) !important;
     background-color: #ffffff !important;
@@ -145,8 +147,7 @@ body {
 }
 
 .pricing-card:hover .Text-Span-2 {
-    background-color: white !important;
-    color: white !important;
+    -webkit-text-fill-color: white;
     background-image: none !important;
 }
 
@@ -172,3 +173,5 @@ body {
     color: white;
     background-image: none;
 }
+
+/* AA-Technologies-css-end */
