@@ -182,3 +182,19 @@ body {
 }
 
 /* AA-Technologies-css-end */
+
+.start-now-btn {
+    background: -webkit-linear-gradient(126.16deg, #03DAC8 -46.47%, #1095F2 78.92%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(101.42deg, #ffffff 14.16%, #ffffff 97.35%) border-box !important;
+    transition: all 300ms linear !important;
+}
+
+.start-now-btn:hover .start-now {
+    background-color: #2439FF !important;
+    background: linear-gradient(#2439FF, #2439FF) padding-box,
+        linear-gradient(101.42deg, #237BFF 14.16%, #2439FF 97.35%) border-box !important;
+    color: white !important;
+}
