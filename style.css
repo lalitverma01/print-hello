@@ -191,10 +191,10 @@ body {
         linear-gradient(101.42deg, #ffffff 14.16%, #ffffff 97.35%) border-box !important;
     transition: all 300ms linear !important;
 }
-/* 
+
 .start-now-btn:hover {
     background-color: #03DAC8 !important;
-} */
+}
 
 .start-now-btn:hover .start-now {
     background-color: white !important;
