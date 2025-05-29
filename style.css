@@ -195,7 +195,7 @@ body {
 .start-now-btn:hover {
     background-color: #03DAC8 !important;
     background: linear-gradient(#03DAC8, #1095F2) padding-box,
-        linear-gradient(180.42deg, #03DAC8 14.16%, #1095F2 97.35%) border-box !important;
+        linear-gradient(90.42deg, #03DAC8 14.16%, #1095F2 97.35%) border-box !important;
     color: white !important;
 }
 
