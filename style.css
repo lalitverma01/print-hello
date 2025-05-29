@@ -193,7 +193,7 @@ body {
 }
 
 .start-now-btn:hover {
-    background-color: #03DAC8;
+    background-color: #03DAC8 !important;
 }
 
 .start-now-btn:hover .start-now {
